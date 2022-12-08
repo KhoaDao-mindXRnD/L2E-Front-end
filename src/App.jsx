@@ -44,7 +44,7 @@ const App = () => {
         <div className="list">
           {dados.map((leader, index) => (
             <div className="player" key={leader.id}>
-              <span> {index + 1}</span>
+              <span> {leader.rank}</span>
               <div className="user">
                 <img className="image" src={leader.image} />
                 <span> {leader.name} </span>
