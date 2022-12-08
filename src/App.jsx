@@ -1,5 +1,5 @@
 
-import {data} from "./test_pull.cjs"
+import database from './database.json'
 const App = () => {
   var dados = data;
 
