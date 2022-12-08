@@ -44,7 +44,6 @@ async function getInfo(){
       hold['class'] = Studs[i].Classname
       hold['image'] = 'https://cdn-icons-png.flaticon.com/512/7981/7981266.png'
       hold['coins'] = Studs[i].coin
-      hold['pass'] = true
       hold['rank'] = 0
       dados[i] = hold
   }

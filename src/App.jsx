@@ -1,12 +1,6 @@
+import database from './database.json'
 const App = () => {
-  const dados = new Array(50).fill("").map((_, index) => ({
-    id: index,
-    name: "Nguyễn Văn A",
-    class: "C4K-SB30",
-    image: "https://cdn-icons-png.flaticon.com/512/186/186037.png",
-    coins: 500,
-    rank: index + 1,
-  }));
+  const dados = database
 
   return (
     <div className="container">
