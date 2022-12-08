@@ -41,8 +41,6 @@ const App = () => {
 
           <div>Class Name</div>
 
-          <div>Pass</div>
-
           <div>Coins</div>
         </div>
         <div className="list">
@@ -54,7 +52,6 @@ const App = () => {
                 <span> {leader.name} </span>
               </div>
               <span> {leader.class} </span>
-              <span> {leader.pass ? "Yes" : "No"} </span>
               <span> {leader.coins} </span>
             </div>
           ))}
